@@ -6,10 +6,26 @@
   <br>
 </h1>
 <div align="center">
-  
-Este projeto tem como objetivo utilizar o Raspberry Pi Pico W para implementar sistemas de temporização 
+
+<h4 align="center">Projeto da Residência Tecnológica em Sistemas Embarcados </h4>
+
+<p align="center">
+<div align="center">
+
+[![MIT License](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/nailasuely/task05-clock/blob/main/LICENSE)
+
+
+> Este projeto tem como objetivo utilizar o Raspberry Pi Pico W para implementar sistemas de temporização 
 com **temporizadores periódicos** e **temporizadores de um disparo (one-shot)**. Então, foram desenvolvidas
 duas atividades: um **semáforo automático** e um **controle de LEDs acionado por botão**.
+> 
+## Download do repositório
+
+```
+gh repo clone nailasuely/task05-clock
+```
+
+</div>
 </div>
 
 <details open="open">
