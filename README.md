@@ -22,9 +22,10 @@ duas atividades: um **semáforo automático** e um **controle de LEDs acionado p
 ## Download do repositório
 <p align="center">
   
- ``` gh repo clone nailasuely/task05-clock ```
+```
+gh repo clone nailasuely/IOInterfacesProblem1
+```
 </p>
-
 
 </div>
 </div>
