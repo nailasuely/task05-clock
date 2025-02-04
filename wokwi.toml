@@ -1,0 +1,4 @@
+[wokwi]
+version = 1
+firmware = 'build/task05-clock.uf2'
+elf = 'build/task05-clock.elf'
