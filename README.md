@@ -15,23 +15,21 @@ duas atividades: um **semáforo automático** e um **controle de LEDs acionado p
 <details open="open">
 <summary>Sumário</summary>
   
-- [Requisitos](#requisitos)
-- [Componentes Utilizados](#componentes-utilizados)
-- [Estrutura do Projeto](#estrutura-do-projeto)
-- [Funcionalidades](#funcionalidades)
-  - [Atividade 1: Semáforo com Temporizador Periódico](#atividade-1-semáforo-com-temporizador-periódico)
-  - [Atividade 2: Controle de LEDs com Temporizador One Shot](#atividade-2-controle-de-leds-com-temporizador-one-shot)
-- [Como Executar](#como-executar)
-  - [Pré-requisitos](#pré-requisitos)
-  - [Passos para Execução](#passos-para-execução)
-- [Vídeo Demonstração](#vídeo-de-demonstração)
-- [Autora](#autora)
+- [📌 Requisitos](#requisitos)
+- [🔧 Componentes Utilizados](#componentes-utilizados)
+- [📂 Estrutura do Projeto](#estrutura-do-projeto)
+- [⚙️ Funcionalidades](#funcionalidades)
+  - [📍 Atividade 1: Semáforo com Temporizador Periódico](#atividade-1-semáforo-com-temporizador-periódico)
+  - [📍 Atividade 2: Controle de LEDs com Temporizador One Shot](#atividade-2-controle-de-leds-com-temporizador-one-shot)
+- [🚀 Como Executar](#como-executar)
+  - [✅ Pré-requisitos](#pré-requisitos)
+  - [📌 Passos para Execução](#passos-para-execução)
+- [🎥 Vídeo Demonstração](#vídeo-demonstração)
+- [👩‍💻 Autora](#autora)
 
-</details>
+![---](https://github.com/nailasuely/task05-clock/blob/main/src/prancheta.png)
 
----
-
-## 📌 **Requisitos**
+## 📌 Requisitos
 
 - Implementação no **Raspberry Pi Pico W** utilizando a **Pico SDK**.
 - Uso dos **temporizadores** `add_repeating_timer_ms()` e `add_alarm_in_ms()`.
@@ -40,9 +38,9 @@ duas atividades: um **semáforo automático** e um **controle de LEDs acionado p
 - Código estruturado em **módulos separados**.
 - Utilização de **LEDs e botões** para controle.
 
----
+![---](https://github.com/nailasuely/task05-clock/blob/main/src/prancheta.png)
 
-## 🔧 **Componentes Utilizados**
+## 🔧 Componentes Utilizados
 ### Atividade 1 - Semáforo
 - Raspberry Pi Pico W
 - 3 LEDs (vermelho, amarelo e verde)
@@ -56,10 +54,59 @@ duas atividades: um **semáforo automático** e um **controle de LEDs acionado p
 
 ![---](https://github.com/nailasuely/task05-clock/blob/main/src/prancheta.png)
 
-## 📂 **Estrutura do Projeto**
+## 📂 Estrutura do Projeto
 - **main.c**: Inicializa o sistema e permite escolher entre as atividades.
 - **semaforo.c**: Controla o semáforo com `add_repeating_timer_ms()`.
 - **one-shot.c**: Controla os LEDs com `add_alarm_in_ms()`, ativados por botão.
 - **time.c**: Gerencia temporizadores e callbacks.  
 
----
+![---](https://github.com/nailasuely/task05-clock/blob/main/src/prancheta.png)
+
+## ⚙️ Funcionalidades
+
+### 📍 Atividade 1: Semáforo com Temporizador Periódico  
+O semáforo alterna entre os LEDs vermelho, amarelo e verde a cada **3 segundos**.
+A lógica usa a função `add_repeating_timer_ms()`.
+
+### 📍 Atividade 2: Controle de LEDs com Temporizador One Shot  
+O sistema aciona os LEDs ao pressionar um **botão** (GPIO 5):  
+1. **Todos os LEDs acendem**  
+2. Após **3 segundos**, os LEDs vão se apagando um a um.
+O botão só pode ser acionado novamente quando todos os LEDs estiverem apagados.
+
+![---](https://github.com/nailasuely/task05-clock/blob/main/src/prancheta.png)
+
+## 🚀 Como Executar  
+
+### ✅ Pré-requisitos  
+- **VS Code** com ambiente do **Pico SDK** configurado  
+- **CMake** instalado  
+- **Simulador Wokwi** e **BitDogLab** integrados  
+- **Placa Raspberry Pi Pico W** (caso execute em hardware real)  
+
+### 📌 Passos para Execução  
+1. Clone o repositório:  
+   ```sh
+   git clone https://github.com/nailasuely/task05-clock.git
+   cd task05-clock ```
+2. Compile e suba o código para o Pico W ou execute no simulador Wokwi.
+
+## 🎥 Vídeo de Demonstração
+[Link]()
+
+![---](https://github.com/nailasuely/task05-clock/blob/main/src/prancheta.png)
+
+## 👩‍💻 Autora
+
+<table>
+  <tr>
+    <td align="center">
+      <a href="https://github.com/nailasuely" target="_blank">
+        <img src="https://avatars.githubusercontent.com/u/98486996?v=4" width="100px;" alt=""/>
+      </a>
+      <br /><sub><b> Naila Suele </b></sub>
+    </td>
+
+</table>
+
+
