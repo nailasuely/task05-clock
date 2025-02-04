@@ -20,10 +20,11 @@ com **temporizadores periódicos** e **temporizadores de um disparo (one-shot)**
 duas atividades: um **semáforo automático** e um **controle de LEDs acionado por botão**.
 > 
 ## Download do repositório
+<p align="center">
+  
+ ``` gh repo clone nailasuely/task05-clock ```
+</p>
 
-```
-gh repo clone nailasuely/task05-clock
-```
 
 </div>
 </div>
