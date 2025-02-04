@@ -14,18 +14,20 @@ duas atividades: um **semáforo automático** e um **controle de LEDs acionado p
 
 <details open="open">
 <summary>Sumário</summary>
-  
-- [📌 Requisitos](#requisitos)
-- [🔧 Componentes Utilizados](#componentes-utilizados)
-- [📂 Estrutura do Projeto](#estrutura-do-projeto)
-- [⚙️ Funcionalidades](#funcionalidades)
-  - [📍 Atividade 1: Semáforo com Temporizador Periódico](#atividade-1-semáforo-com-temporizador-periódico)
-  - [📍 Atividade 2: Controle de LEDs com Temporizador One Shot](#atividade-2-controle-de-leds-com-temporizador-one-shot)
-- [🚀 Como Executar](#como-executar)
-  - [✅ Pré-requisitos](#pré-requisitos)
-  - [📌 Passos para Execução](#passos-para-execução)
-- [🎥 Vídeo Demonstração](#vídeo-demonstração)
-- [👩‍💻 Autora](#autora)
+
+- [📌 Requisitos](#-requisitos)
+- [🔧 Componentes Utilizados](#-componentes-utilizados)
+- [📂 Estrutura do Projeto](#-estrutura-do-projeto)
+- [⚙️ Funcionalidades](#%EF%B8%8F-funcionalidades)
+  - [📍 Atividade 1: Semáforo com Temporizador Periódico](#-atividade-1-semáforo-com-temporizador-periódico)
+  - [📍 Atividade 2: Controle de LEDs com Temporizador One Shot](#-atividade-2-controle-de-leds-com-temporizador-one-shot)
+- [🚀 Como Executar](#-como-executar)
+  - [✅ Pré-requisitos](#-pré-requisitos)
+  - [📌 Passos para Execução](#-passos-para-execução)
+- [🎥 Vídeo Demonstração](#-vídeo-demonstração)
+- [👩‍💻 Autora](#-autora)
+
+</details>
 
 ![---](https://github.com/nailasuely/task05-clock/blob/main/src/prancheta.png)
 
