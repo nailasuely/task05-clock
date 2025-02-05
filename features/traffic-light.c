@@ -21,20 +21,26 @@ void iniciarSemaforo() {
     gpio_put(pinoVerde, 0);
 }
 
+//para simular amarelo na placa
+/*
 void alternarSemaforo() {
-    if (estado == 0) {  
-        gpio_put(pinoVermelho, 0);
-        gpio_put(pinoAmarelo, 1);
+    if (estado == 0) {  // Vermelho
+        gpio_put(pinoVermelho, 1);
+        gpio_put(pinoAmarelo, 0); // Amarelo não existe, desligado
+        gpio_put(pinoVerde, 0);
         estado = 1;
     } 
-    else if (estado == 1) {  
-        gpio_put(pinoAmarelo, 0);
+    else if (estado == 1) {  // Amarelo (Vermelho + Verde)
+        gpio_put(pinoVermelho, 1);
         gpio_put(pinoVerde, 1);
+        gpio_put(pinoAmarelo, 0); // Azul OFF
         estado = 2;
     } 
-    else {  
-        gpio_put(pinoVerde, 0);
-        gpio_put(pinoVermelho, 1);
+    else {  // Verde
+        gpio_put(pinoVermelho, 0);
+        gpio_put(pinoVerde, 1);
+        gpio_put(pinoAmarelo, 0); // Azul OFF
         estado = 0;
     }
 }
+*/
