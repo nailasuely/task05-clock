@@ -119,7 +119,7 @@ O botão só pode ser acionado novamente quando todos os LEDs estiverem apagados
    
  <div align="center">
       <img width="800px" src="https://github.com/nailasuely/task05-clock/blob/main/src/atv2.gif" />
-      <p>Fig 1. Atividade 2.</p>
+      <p>Fig 2. Atividade 2.</p>
    </div>
 
    
